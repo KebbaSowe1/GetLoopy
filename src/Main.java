@@ -18,7 +18,7 @@ public class Main{
                 int sum = die1 + die2 + die3;
                 rollCount++;
                 System.out.printf("%4d\t%4d\t%4d\t%4d\t%4d\n", rollCount, die1, die2, die3, sum);
-            } while (!(die1 == die2 && die2 == die3)); // Continue until we get a triple
+            } while (!(die1 == die2 && die2 == die3));
 
             System.out.print("Do you want to roll again? (yes/no): ");
             String response = scanner.next().trim().toLowerCase();
